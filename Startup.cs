@@ -136,11 +136,11 @@ namespace EventsDemo
             InitializeDatabase(app);
 
             app.UseSwagger();
-            if (env.IsDevelopment())
+            //if (env.IsDevelopment())
                 app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/EventAPI/swagger.json", "Event API list");
-                });
+               // });
             //app.UseHttpsRedirection();
             app.UseMvc();
         }
