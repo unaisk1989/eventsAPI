@@ -101,7 +101,7 @@ namespace EventsDemo
             services.AddMvc(c=>
             {
                 c.Filters.Add(typeof(CustomExceptionHandler)); //Adding the custom exception handler
-                c.OutputFormatters.Add(new CsvCustomFormatter());//Added custom csv formatter
+                ///c.OutputFormatters.Add(new CsvCustomFormatter());//Added custom csv formatter
             }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
