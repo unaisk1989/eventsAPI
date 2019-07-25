@@ -1,0 +1,14 @@
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.csproj.CoreCompileInputs.cache
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.RazorAssemblyInfo.cache
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.RazorAssemblyInfo.cs
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.AssemblyInfoInputs.cache
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.AssemblyInfo.cs
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\bin\Debug\netcoreapp2.2\EventsDemo.deps.json
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\bin\Debug\netcoreapp2.2\EventsDemo.runtimeconfig.json
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\bin\Debug\netcoreapp2.2\EventsDemo.runtimeconfig.dev.json
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\bin\Debug\netcoreapp2.2\EventsDemo.dll
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\bin\Debug\netcoreapp2.2\EventsDemo.pdb
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.RazorTargetAssemblyInfo.cache
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.dll
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.pdb
+C:\Users\training1\Documents\Unais-FSD\Day-13(16-July-2019)\EventsDemo\EventsDemo\obj\Debug\netcoreapp2.2\EventsDemo.csprojAssemblyReference.cache
