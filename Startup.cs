@@ -36,9 +36,8 @@ namespace EventsDemo
         {
            services.AddDbContext<EventDbContext>(options =>
            {
-               //options.UseInMemoryDatabase(databaseName: "EventDb");
-               options.UseSqlServer(Configuration.GetConnectionString("EventSqlConnection"));
-
+               options.UseInMemoryDatabase(databaseName: "EventDb");
+               //options.UseSqlServer(Configuration.GetConnectionString("EventSqlConnection"));              
            });
 
             /*services.AddCors(c =>
@@ -134,6 +133,8 @@ namespace EventsDemo
 
             app.UseCors();
 
+            InitializeDatabase(app);
+
             app.UseSwagger();
             if (env.IsDevelopment())
                 app.UseSwaggerUI(c =>
@@ -142,6 +143,41 @@ namespace EventsDemo
                 });
             //app.UseHttpsRedirection();
             app.UseMvc();
+        }
+
+        public void InitializeDatabase(IApplicationBuilder app)
+        {
+            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                var db = serviceScope.ServiceProvider.GetService<EventDbContext>();
+
+                db.Events.Add(new Models.EventInfo
+                {
+                    Title = "Sample Event 1",
+                    StartDate = DateTime.Now,
+                    EndDate = DateTime.Now.AddDays(2),
+                    StartTime = DateTime.Now,
+                    EndTime = DateTime.Now.AddTicks(10000000),
+                    Host ="Microsoft",
+                    Speaker = "Unais K",
+                    RegistrationUrl = "https://events.microsoft.com/1224"
+                    
+                });
+
+                db.Events.Add(new Models.EventInfo
+                {
+                    Title = "Sample Event 2",
+                    StartDate = DateTime.Now,
+                    EndDate = DateTime.Now.AddDays(2),
+                    StartTime = DateTime.Now,
+                    EndTime = DateTime.Now.AddTicks(10000000),
+                    Host = "Microsoft",
+                    Speaker = "Unais K",
+                    RegistrationUrl = "https://events.microsoft.com/1225"
+
+                });
+                db.SaveChanges();
+            }
         }
     }
 }
